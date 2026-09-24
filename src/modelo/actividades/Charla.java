@@ -1,4 +1,6 @@
-public class Charla extends Actividad{
+package modelo;
+
+public class Charla extends Actividad {
     private String disertante;
 
     public Charla (int id,String titulo,int cupomaximo,String disertante){

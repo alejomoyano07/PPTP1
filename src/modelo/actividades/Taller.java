@@ -1,4 +1,6 @@
-public class Taller extends Actividad{
+package modelo;
+
+public class Taller extends Actividad {
     private boolean requierenotebook;
 
     public Taller(int id,String titulo,int cupomaximo,boolean requierenotebook){
